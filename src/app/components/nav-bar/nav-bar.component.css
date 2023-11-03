@@ -1,0 +1,98 @@
+.custom-navbar-color {
+    background-color: black;
+    /* Replace with your custom color code */
+}
+
+
+/* Custom logo button styling */
+.abhinav_custom_logo {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+/* Hover text */
+.abhinav_custom_logo .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+/* Hover effect */
+.abhinav_custom_logo:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+}
+
+/* styling each element */
+.abhinav_custom_nav_item {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+}
+
+.abhinav_custom_nav_item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    /* background-color: #ffc506; */
+    background-color: #37FF8B;
+    transition: .5s ease;
+}
+
+.abhinav_custom_nav_item:hover {
+    color: #696977;
+    transition-delay: .5s;
+}
+
+.abhinav_custom_nav_item:hover::before {
+    width: 100%;
+}
+
+.abhinav_custom_nav_item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #37FF8B;
+    transition: .4s ease;
+    z-index: -1;
+}
+
+.abhinav_custom_nav_item:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+}
