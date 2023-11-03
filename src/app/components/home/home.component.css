@@ -74,7 +74,8 @@
     font-family: 'Bitter';
     font-weight: 600;
     font-style: normal;
-    color: #0974f1;
+    /* color: #0974f1; */
+    color: #f09433;
 }
 
 .work {
@@ -173,4 +174,48 @@
 
 
 /* From here media queries */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left {
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .content {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hello-msg {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 1.2rem;
+        font-family: 'Bitter';
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .work {
+        font-size: 1.2rem;
+    }
+
+    .pepole-connection {
+        display: flex;
+        height: 50px;
+        width: 250px;
+        text-align: center;
+    }
+}
