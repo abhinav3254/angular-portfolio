@@ -69,6 +69,10 @@
     font-size: 2rem;
 }
 
+.iam {
+    font-size: 2rem;
+}
+
 .name {
     font-size: 4rem;
     font-family: 'Bitter';
@@ -198,6 +202,10 @@
     }
 
     .hello-msg {
+        font-size: 1.2rem;
+    }
+
+    .iam {
         font-size: 1.2rem;
     }
 
