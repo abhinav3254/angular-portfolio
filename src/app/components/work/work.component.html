@@ -1,1 +1,9 @@
-<p>work works!</p>
+<div class="one-element" *ngFor="let project of projects">
+    <div class="main">
+        <img class="main-img" src="{{project.img}}" alt="">
+        <p style="color: white;">Name of Project</p>
+        <div class="container">
+            <div class="btn"><a>Read more</a></div>
+        </div>
+    </div>
+</div>
