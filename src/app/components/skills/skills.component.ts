@@ -30,7 +30,7 @@ export class SkillsComponent {
     },
     {
       'name': 'azure',
-      'src': 'assets/icons/backend/microsoft_azure-icon.svg'
+      'src': 'assets/icons/azure-2.svg'
     },
     {
       'name': 'node',
