@@ -19,6 +19,7 @@
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .abhinav_skills_one_element img {
@@ -34,22 +35,15 @@
     .grid-main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 0;
     }
 
 
     .abhinav_skills_one_element {
-        width: 5rem;
-        height: 5rem;
-        margin: 0.5rem;
-        background-color: #212121;
-        box-shadow: 15px 15px 30px #191919, -15px -15px 30px #292929;
-        transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s, transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-    }
-
-    .abhinav_skills_one_element:hover {
-        border-bottom-right-radius: 50px;
-        border-top-left-radius: 50px;
-        transform: scale(1.05);
+        width: auto;
+        height: auto;
+        margin: 1rem;
     }
 
     .abhinav_skills_one_element img {
