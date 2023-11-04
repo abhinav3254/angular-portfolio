@@ -10,7 +10,8 @@
 
 /* for custom form */
 .form-container {
-    width: 400px;
+    /* fixing height */
+    width: 60%;
     background: linear-gradient(#212121, #212121) padding-box,
         linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
     border: 2px solid transparent;
@@ -28,6 +29,7 @@
 
     /* this made form in center */
     margin: auto;
+    padding: 5rem;
 }
 
 @keyframes gradient {
@@ -157,4 +159,20 @@
     background-image: linear-gradient(to right, #743ad5 0%, #d53a9d 51%, #743ad5 100%);
     border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);
     border-image-outset: 1em;
+}
+
+
+
+/* From here media queries */
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 0.5rem;
+        height: auto;
+    }
+
+    .form-container {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 1rem;
+    }
 }
