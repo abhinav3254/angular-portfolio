@@ -1,5 +1,6 @@
 * {
     color: white;
+    font-family: 'Ubuntu';
 }
 
 .box {
@@ -9,4 +10,10 @@
     opacity: 0.4;
     border-radius: 1rem;
     padding: 1rem 2rem;
+}
+
+.headline {
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-decoration-thickness: 0.2rem;
 }
