@@ -10,7 +10,8 @@ export class WorkComponent {
 
   projects = [
     {
-      "img": "https://placehold.co/600x400",
+      "img": "https://github.com/abhinav3254/movie-angular/raw/master/src/assets/readme-img/spider-man-2.png",
+      // "img": "https://placehold.co/600x400",
       "title": "Social Media Story Saver",
       "desc": "The Social Media Story Saver is an innovative Android application designed to enhance your social media experience.With the explosive popularity of ephemeral content on platforms like Instagram, Facebook, and Snapchat, staying updated with your friends' stories has become a daily ritual. This application simplifies and centralizes this process, allowing users to effortlessly save, view, and manage stories from various social media platforms, all within a single, user-friendly interface.",
       "tools": [
