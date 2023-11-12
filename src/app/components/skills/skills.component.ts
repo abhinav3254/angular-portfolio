@@ -115,6 +115,10 @@ export class SkillsComponent {
     {
       'name': 'html',
       'src': 'assets/icons/web/w3_html5-icon.svg'
+    },
+    {
+      'name': 'openCV',
+      'src': 'assets/icons/opencv-icon.svg'
     }
   ];
 
