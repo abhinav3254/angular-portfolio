@@ -73,7 +73,7 @@ export class SkillsComponent {
       'src': 'assets/icons/database/postgresql-icon.svg'
     },
     {
-      'name': 'postgresql',
+      'name': 'sqlite',
       'src': 'assets/icons/database/sqlite-icon.svg'
     },
     {
@@ -105,7 +105,7 @@ export class SkillsComponent {
       'src': 'assets/icons/web/jquery-icon.svg'
     },
     {
-      'name': 'jquery',
+      'name': 'typescript',
       'src': 'assets/icons/web/typescriptlang-icon.svg'
     },
     {
