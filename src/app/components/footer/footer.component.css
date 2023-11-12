@@ -94,3 +94,8 @@
         transform: scale(1);
     }
 }
+
+
+.extra {
+    height: 2rem;
+}

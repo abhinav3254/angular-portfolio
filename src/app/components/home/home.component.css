@@ -82,7 +82,8 @@
     font-size: 4rem;
     font-weight: 600;
     font-style: normal;
-    /* color: #0974f1; */
+    /* color: #f00;
+    opacity: 0.8; */
     color: var(--orange);
 }
 
