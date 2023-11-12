@@ -207,8 +207,8 @@
 
     .one-element {
         width: auto;
-        max-width: 400px;
-        height: 500px;
+        /* max-width: 400px; */
+        height: auto;
         background: #212121;
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
             -15px -15px 30px rgb(60, 60, 60);
@@ -217,5 +217,9 @@
 
     .main-img {
         height: 200px;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
     }
 }

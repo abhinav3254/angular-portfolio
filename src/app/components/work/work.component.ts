@@ -10,6 +10,14 @@ export class WorkComponent {
 
   projects = [
     {
+      "img": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWl8ZW58MHx8MHx8fDA%3D",
+      "title": "Volume Control using Hand Gestures",
+      "desc": "In this project we are using hand gestures to control volume",
+      "tools": [
+        "assets/icons/opencv-icon.svg",
+      ]
+    },
+    {
       "img": "https://media.istockphoto.com/id/1425800274/photo/television-streaming-video-multimedia-wall.jpg?s=612x612&w=0&k=20&c=IxeIdHOGy3hzhYrfjP9O2StGfVLp7dOCNkJ_fOyQ3jc=",
       // "img": "https://placehold.co/600x400",
       "title": "Social Media Story Saver",
