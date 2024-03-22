@@ -14,4 +14,8 @@ export class NavBarComponent {
     this.router.navigate(['/' + address + '']);
   }
 
+  goToBlog() {
+    window.open("https://abhinav3254.hashnode.dev/")
+  }
+
 }
