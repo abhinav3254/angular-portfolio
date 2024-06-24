@@ -8,7 +8,6 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { WorkComponent } from './components/work/work.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFound404Component } from './page-not-found-404/page-not-found-404.component';
 
@@ -20,7 +19,6 @@ import { PageNotFound404Component } from './page-not-found-404/page-not-found-40
     AboutComponent,
     SkillsComponent,
     WorkComponent,
-    ContactComponent,
     FooterComponent,
     PageNotFound404Component
   ],

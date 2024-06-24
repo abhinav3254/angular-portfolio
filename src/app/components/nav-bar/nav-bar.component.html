@@ -13,12 +13,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item" (click)="goToPage('')">
+                <li class="nav-item" (click)="changePath(item)" *ngFor="let item of NAV_ITEMS">
                     <button class="abhinav_custom_nav_item">
-                        Home
+                        {{item}}
                     </button>
                 </li>
-                <li class="nav-item" (click)="goToBlog()">
+                <!-- <li class="nav-item" (click)="goToBlog()">
                     <button class="abhinav_custom_nav_item">
                         Blogs
                     </button>
@@ -37,12 +37,7 @@
                     <button class="abhinav_custom_nav_item">
                         Work
                     </button>
-                </li>
-                <li class="nav-item" (click)="goToPage('contact')">
-                    <button class="abhinav_custom_nav_item">
-                        Contact
-                    </button>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

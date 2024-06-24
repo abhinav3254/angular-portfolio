@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent {
 
+  NAV_ITEMS: string[] = ['Home', 'Blogs', 'About', 'Skills', 'Work'];
+
   constructor(private router: Router) { }
 
   goToPage(address: string) {
@@ -16,6 +18,14 @@ export class NavBarComponent {
 
   goToBlog() {
     window.open("https://abhinav3254.hashnode.dev/")
+  }
+
+  changePath(name: string): void {
+    if (name.toLowerCase() === 'blogs') {
+      this.goToBlog();
+    } else {
+      this.router.navigate([`/${name.toLowerCase()}`]);
+    }
   }
 
 }
