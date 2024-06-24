@@ -12,10 +12,6 @@ export class NavBarComponent {
 
   constructor(private router: Router) { }
 
-  goToPage(address: string) {
-    this.router.navigate(['/' + address + '']);
-  }
-
   goToBlog() {
     window.open("https://abhinav3254.hashnode.dev/")
   }
