@@ -1,0 +1,15 @@
+<section class="min-h-screen w-screen bg-third_black lg:p-20 p-5 overflow-x-hidden">
+    <div class="lg:text-6xl text-2xl text-fourth_white font-bold text-start w-full my-10">
+        <h4>Skills</h4>
+    </div>
+    <div class="flex gap-20">
+        <div class="flex flex-wrap gap-10 items-center lg:justify-start justify-center lg:w-1/2 w-full">
+            <ng-container *ngFor="let skill of skills">
+                <img class="lg:h-18 lg:w-18 h-12 w-12" src={{getSkillsRoute(skill)}} alt={{skill}}>
+            </ng-container>
+        </div>
+        <div class="w-1/2 bg-[url('/assets/doodle.svg')] lg:block hidden">
+            <img class="object-cover" src="assets/skills_per.svg" alt="doodle">
+        </div>
+    </div>
+</section>

@@ -1,0 +1,9 @@
+<section class="w-screen bg-black lg:p-10 p-5 overflow-x-hidden flex flex-col items-center justify-center">
+    <div class="flex items-center justify-center gap-5">
+        <ng-container *ngFor="let contact of contacts">
+            <img (click)="navigate(contact)" class="lg:h-12 lg:w-12 w-8 h-8 object-cover" src={{getContacts(contact)}}
+                alt="">
+        </ng-container>
+    </div>
+    <p class="text-white lg:my-10 my-5 text-xs">© 2025 Abhinav Jha. All rights reserved.</p>
+</section>
